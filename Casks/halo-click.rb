@@ -8,15 +8,15 @@
 # The `url` is the counted site redirect, not the raw Blob object. Homebrew
 # follows the 302 and checks sha256 of the downloaded DMG. If haloclick.app
 # is unreachable, temporarily use:
-#   https://halo-click.vercel.app/download/1.3.0
+#   https://halo-click.vercel.app/download/1.4.0
 # (Deployment Protection on *.vercel.app may block anonymous Homebrew fetches
 # — prefer https://haloclick.app.)
 
 cask "halo-click" do
-  version "1.3.0"
-  sha256 "0326b16ae9c1b763a054a1f818a014716820216f6febeb0b349da218f5682d15"
+  version "1.4.0"
+  sha256 "2c4710820565930b5d5142c64967c1929508cac20ff2051673e8acd6c6b640db"
 
-  url "https://haloclick.app/download/1.3.0"
+  url "https://haloclick.app/download/1.4.0"
   name "Halo Click"
   desc "Native macOS radial browser picker"
   homepage "https://haloclick.app"
